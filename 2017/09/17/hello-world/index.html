@@ -69,14 +69,14 @@
               </a>
             </li>
         
-            <li class="waves-block waves-effect">
+            <li class="waves-block waves-effect active">
               <a href="/"  >
                 <i class="icon icon-lg icon-archives"></i>
                 个人简介
               </a>
             </li>
         
-            <li class="waves-block waves-effect">
+            <li class="waves-block waves-effect active">
               <a href="/"  >
                 <i class="icon icon-lg icon-tags"></i>
                 标签
@@ -105,7 +105,7 @@
             </li>
         
             <li class="waves-block waves-effect">
-              <a href="/custom"  >
+              <a href="/"  >
                 <i class="icon icon-lg icon-link"></i>
                 测试
               </a>
@@ -352,7 +352,7 @@
         </p>
     </div>
     <div class="bottom">
-        <p><span>李世洲 &copy; 2015 - 2017</span>
+        <p><span>李世洲 &copy; 2017</span>
             <span>
                 
                 Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a>
@@ -455,10 +455,10 @@ var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
     var OriginTitile = document.title, titleTime;
     document.addEventListener('visibilitychange', function() {
         if (document.hidden) {
-            document.title = '死鬼去哪里了！';
+            document.title = '死鬼去哪里了？';
             clearTimeout(titleTime);
         } else {
-            document.title = '(つェ⊂)咦!又好了!';
+            document.title = '咦!又好了!';
             titleTime = setTimeout(function() {
                 document.title = OriginTitile;
             },2000);
